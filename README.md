@@ -51,6 +51,36 @@ Vad saknas?
 * Felmedelandet är väldigt simpelt, det specificerar inte vad som är fel eller vilket argument som är felaktigt.
 
 
+Frågan som ställs till AI:
+"Skapa en funktion som returnerar alla primtal från en lista"
+
+**AI svar**
+
+```
+    function getPrimes(numbers) {
+        return numbers.filter(isPrime);
+    }
+    
+    function isPrime(num) {
+        if (num <= 1) return false;
+        if (num === 2) return true;
+        if (num % 2 === 0) return false;
+    
+        const limit = Math.sqrt(num);
+        for (let i = 3; i <= limit; i += 2) {
+            if (num % i === 0) return false;
+        }
+        return true;
+    }
+```
+
+Vad saknas?
+* Det finns ingen typkontroll, ifall någon skickar in en sträng eller None kommer funktionen att krasha.
+* Ingen säkerhetskontroll för tal som "infinity", det kommer att returneras som **true**.
+* Ifall koden ska användas i ett större sammanhang bör inte funktionen "getPrime" vara en global funktion utan bör inporteras.
+
+#Sammanfattning
+
 
 # Referenser
 * https://www.unemyr.com/traditionell-kod-vs-ai-nar-ar-det-bast-att-valja-manuellt-skrivande-for-affarslogik/
