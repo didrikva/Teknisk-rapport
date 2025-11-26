@@ -33,6 +33,7 @@ Frågan som ställs till AI:
 "Skapa en funktion i JavaScript för att skriva ut priset från svenska kronor till dollar"
 
 ** AI svar **
+
 '''
     function sekToUsd(sekAmount, exchangeRate) {
         if (typeof sekAmount !== "number" || typeof exchangeRate !== "number") {
