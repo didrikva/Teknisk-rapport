@@ -2,19 +2,19 @@
 Syftet med rapporten är att jämföra och analysera fördelar samt nackdelar med kod skriven av en AI tjänst som exempelvis ChatGPT eller Co-Pilot, kontra kod skriven av en människa. 
 
 # Underhåll
-Mänskligt skriven kod är genrellt sätt lättare att underhålla och felsöka. Ifall en person har skrivit koden är det lättare att förstå och underhålla eventuella fel eller fortsätta med utvecklingen av koden. Under utvecklingsprocessen hittar man redan fel som går att återgärda vilket leder till en säkrare kod. Jobbar man tillsammans i en grupp kommer enkel och tydlig kod att underlätta för dina kollegor att vidareutveckla och förstå koden som är skriven.
+Mänskligt skriven kod är generellt sätt lättare att underhålla och felsöka. Ifall en person har skrivit koden är det lättare att förstå och underhålla eventuella fel eller fortsätta med utvecklingen av koden. Under utvecklingsprocessen hittar man redan fel som går att åtgärda vilket leder till en säkrare kod. Jobbar man tillsammans i en grupp kommer enkel och tydlig kod att underlätta för dina kollegor att vidareutveckla och förstå koden som är skriven.
 
-Vid generering av AI kod skapas det kod för den givna frågan till AI-tjänsten. Ifall koden som efterfrågas är en simplare och enkel kod kommer AI till stor sannolikhet att skapa en snarlik kod jämfört med en människa. Det är vid utvecklingen av större projekt som kan ta en människa veckor eller månader att skapa, som AI inte blir lika pålitlig. Den genererade koden skapas med en specifik modell vilket ofta leder till att bara förstå varför den genererade koden ens genereras blir svårt. Bara det blir en utmaning att underhålla och felsöka koden. AI genrerar inte från ingenting likt en människa utan hämtar från existerande kodbaser och försöker skapa en så bra kod som möjligt utifrån uppgifterna den hittar.
+Vid generering av AI kod skapas det kod för den givna frågan till AI-tjänsten. Ifall koden som efterfrågas är en simplare och enkel kod kommer AI till stor sannolikhet att skapa en snarlik kod jämfört med en människa. Det är vid utvecklingen av större projekt som kan ta en människa veckor eller månader att skapa, som AI inte blir lika pålitlig. Den genererade koden skapas med en specifik modell vilket ofta leder till att bara förstå varför den genererade koden ens genereras blir svårt. Bara det blir en utmaning att underhålla och felsöka koden. AI genererar inte från ingenting likt en människa utan hämtar från existerande kodbaser och försöker skapa en så bra kod som möjligt utifrån uppgifterna den hittar.
 
-Detta gör att koden inte skapas med samma eftertänksamhet eller planering som om en människa hade gjort det. Detta kan leda till oeffektiva lösningar eller helt enkelt en ofungerande kod. 
+Detta gör att koden inte skapas med samma eftertänksamhet eller planering som om en människa hade gjort det. Detta kan leda till ineffektiva lösningar eller helt enkelt inte fungerande kod. 
 Sammanfattningsvis så blir AI genererad kod svårare att underhålla då den skapas utan eftertanke och därför behöver inte alltid all kod vara logisk. Där skiljer sig den mänskligt skrivna koden då den oftast är genomtänkt och många använder sig utav "clean code", vilket leder till en enklare kod att förstå och underhålla.
 
 # Tekniska val
-Programmering handla inte heller bara om ren kod. Det handlar även om struktur och arkitektur i applikationen. Människor kommmer oftast att göra sina val av ramverk baserat på vilket ramverk som bäst passa applikationen. AI väljer oftast den snabbaste och enklaste lösningen. Detta leder till dåligt strukturerade applikationer där flera tekniska val inte alltid passar ihop eller är det optimala valet för den specifika applikationen. 
+Programmering handlar inte heller bara om ren kod. Det handlar även om struktur och arkitektur i applikationen. Människor kommer oftast att göra sina val av ramverk baserat på vilket ramverk som bäst passar applikationen. AI väljer oftast den snabbaste och enklaste lösningen. Detta leder till dåligt strukturerade applikationer där flera tekniska val inte alltid passar ihop eller är det optimala valet för den specifika applikationen. 
 
 Varför gör AI inte optimala val?
 
-Många AI modeller utgår inte från en större skala och väljer pågrund av det de mest populära eller enklaste ramverken. Algoritmen baserar inte heller sitt val för framtiden eller underhåll utan väljer det som passar bäst för tillfället, inte projektets långsiktiga utveckling. Ifall ett större projekt genereras med AI och flera komponenter behöver samarbeta tillsammans finns det stor risk att AI genererad kod inte alls fungerar bra tillsammans med övriga komponenter.
+Många AI modeller utgår inte från en större skala och väljer på grund av det de mest populära eller enklaste ramverken. Algoritmen baserar inte heller sitt val för framtiden eller underhåll utan väljer det som passar bäst för tillfället, inte projektets långsiktiga utveckling. Ifall ett större projekt genereras med AI och flera komponenter behöver samarbeta tillsammans finns det stor risk att AI genererad kod inte alls fungerar bra tillsammans med övriga komponenter.
 
 Detta är just varför människan och det mänskliga tänkandet alltid kommer att göra bättre tekniska val till ett projekt.
 
@@ -83,21 +83,21 @@ Frågan som ställs till AI:
 Vad saknas?
 * Det finns ingen typkontroll, ifall någon skickar in en sträng eller None kommer funktionen att krasha.
 * Ingen säkerhetskontroll för tal som "infinity", det kommer att returneras som **true**.
-* Ifall koden ska användas i ett större sammanhang bör inte funktionen "getPrime" vara en global funktion utan bör inporteras.
+* Ifall koden ska användas i ett större sammanhang bör inte funktionen "getPrime" vara en global funktion utan bör importeras.
 
 # När är AI användbart?
-* AI kan vara användbart för att skapa en grund eller mindre enklare funktioner. Skulle man som programmerare ha absolut ingen aning om hur man ska påbörja ett projekt kan AI möjligtvis hjälpa till med en start. AI kan enkelt komma på ider som senare måste tittas igenom och ändras av en människa. 
-* Många AI modeller har en mönsterigenkänning som många människor inte har. Detta kan underlätta att förstå och utgöra komplexare mönster som människor har svårare för. 
-* Ifall ditt projekt baseras på något som redan skapats eller redan finns, kan AI hjälpa till att kolla upp brister och utveckling baserat på tidigare data angående ämnet. 
-* AI kan hjälpa till att upptäcka nya ramverk eller nya sätt att utveckla på som kanske inte man själv hade tänkt på.
+* AI kan vara användbart för att skapa en grund eller mindre enklare funktioner. Skulle man som programmerare inte ha någon aning om hur man ska påbörja ett projekt kan AI möjligtvis hjälpa till med en start. AI kan enkelt komma på idéer som senare måste tittas igenom och ändras av en människa. 
+* Många AI modeller har en mönsterigenkänning som de flesta människor inte har. Detta kan underlätta för förståelse och utgöra komplexare mönster som människor har svårare för. 
+* Ifall ditt projekt baseras på något som redan skapats eller redan finns, kan AI hjälpa till att kolla upp brister och fortsätta utveckla baserat på tidigare data angående ämnet. 
+* AI kan hjälpa till att upptäcka nya ramverk eller nya sätt att utveckla på som en människa kanske inte hade tänkt på.
 
 
 # Sammanfattning
 ## Bör vi undvika att använda oss utav AI?
-Det enkla svaret är nej. AI kommer inte på många år om ens någonsin att ersätta mänskligt kodande av många anledningar. Människor har oftast erfarenhet, omdöme och ett fritt sinne att lösa problem med. Människor kommer enklare att förstå kundens behov, förstå kodens struktur, göra korrekt tekniska val och mycket mer för att underhålla ett starkt system. Ett mänskligt skrivet system kommer ha bättre säkerhet, lättare att underhåla och även mindre buggar.
+Det enkla svaret är nej. AI kommer inte på många år om ens någonsin att ersätta mänskligt kodande av många anledningar. Människor har oftast erfarenhet, omdöme och ett öppet sinne för att lösa problem. Människor har enklare att förstå kundens behov, förstå kodens struktur, göra korrekta tekniska val och mycket mer för att underhålla ett starkt system. Ett mänskligt skrivet system kommer ha bättre säkerhet, vara lättare att underhålla och innehålla mindre buggar.
 
 ## När bör vi använda AI?
-AI bör användas som ett hjälpmedel till den männskliga utvecklingen. Vid korrekt användning av AI kan det vara ett bra hjälpmedel till människan för att utveckla system, AI bör aldrig själv användas till ett helt system. Istället för att helt skjuta ner iden av AI bör vi utnyttja möjligheten att förbättra de delarna människor inte gör lika bra och tillsammans komplettera varandra till ett perfekt system. Ifall vi ser AI som en miniräknare eller diskmaskin kan systemen som utvecklas kompletteras bra och utvecklandet förbättras.
+AI bör användas som ett hjälpmedel till den mänskliga utvecklingen. Vid korrekt användning av AI kan det vara ett bra hjälpmedel till människan för att utveckla system, AI bör själv aldrig användas för att utveckla ett helt system. Istället för att helt skjuta ner idéen av AI bör vi utnyttja möjligheten att förbättra de delarna människor inte gör lika bra och tillsammans komplettera varandra till ett perfekt system. Ifall vi ser AI som en miniräknare eller diskmaskin kan systemen som utvecklas kompletteras bra och utvecklandet förbättras.
 
 
 
