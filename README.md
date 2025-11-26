@@ -10,10 +10,10 @@ Detta gör att koden inte skapas med samma eftertänksamhet eller planering som 
 Sammanfattningsvis så blir AI genererad kod svårare att underhålla då den skapas utan eftertanke och därför behöver inte alltid all kod vara logisk. Där skiljer sig den mänskligt skrivna koden då den oftast är genomtänkt och många använder sig utav "clean code", vilket leder till en enklare kod att förstå och underhålla.
 
 # Tekniska val
-Programmering handla inte heller bara av ren kod. Det handlar även om struktur och artitektur i applikationen. Människor kommmer oftast att göra sina val av ramverk till vilket ramverk som kommer att passa applikationen bäst. AI väljer oftast den snabbaste och enklaste lösningen. Detta leder till dåligt strukturerade applikationer där flera tekniska val inte alltid passar ihop eller är det optimala för just den applikationen. 
+Programmering handla inte heller bara om ren kod. Det handlar även om struktur och arkitektur i applikationen. Människor kommmer oftast att göra sina val av ramverk baserat på vilket ramverk som bäst passa applikationen. AI väljer oftast den snabbaste och enklaste lösningen. Detta leder till dåligt strukturerade applikationer där flera tekniska val inte alltid passar ihop eller är det optimala valet för den specifika applikationen. 
 
 Varför gör AI inte optimala val?
-Många AI modeller utgår inte från en större skala och väljer oftast därför de mest populära eller enklaste ramverken. Algoritmen baserar inte heller sitt val för framtiden eller underhåll utan väljer det som passar för tillfället, inte projektets långsiktiga utveckling. Ifall ett större projekt genereras med AI och fler komponenter behöver samarbeta tillsammans finns det stor risk att AI genererad kod inte alls fungerar bra tillsammans.
+Många AI modeller utgår inte från en större skala och väljer pågrund av det mest populära eller enklaste ramverken. Algoritmen baserar inte heller sitt val för framtiden eller underhåll utan väljer det som passar för tillfället, inte projektets långsiktiga utveckling. Ifall ett större projekt genereras med AI och fler komponenter behöver samarbeta tillsammans finns det stor risk att AI genererad kod inte alls fungerar bra tillsammans.
 
 Detta är just varför människan och det mänskliga tänkandet alltid kommer att göra bättre tekniska val till ett projekt.
 
