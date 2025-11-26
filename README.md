@@ -90,7 +90,7 @@ Vad saknas?
 
 
 # Sammanfattning
-##Bör vi undvika att använda oss utav AI?
+## Bör vi undvika att använda oss utav AI?
 Det enkla svaret är nej. AI kommer inte på många år om ens någonsin att ersätta mänskligt kodande av många anledningar. Människor har oftast erfarenhet, omdöme och ett fritt sinne att lösa problem med. Människor kommer enklare att förstå kundens behov, förstå kodens struktur, göra korrekt tekniska val och mycket mer för att underhålla ett starkt system. Ett mänskligt skrivet system kommer ha bättre säkerhet, lättare att underhåla och även mindre buggar.
 
 ## När bör vi använda AI?
