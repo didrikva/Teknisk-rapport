@@ -29,7 +29,7 @@ AI kan absolut fortsätta att skapa större och större system, men hur bra komm
 # Kodexempel
 Vad får vi för svar när vi frågar AI och vad finns det för brister?
 
-##Promt 1
+## Promt 1
 
 Frågan som ställs till AI:
 "Skapa en funktion i JavaScript för att skriva ut priset från svenska kronor till dollar"
@@ -52,7 +52,7 @@ Vad saknas?
 * Ingen kontroll av negativa värden, växlar man pengar kan man inte växla -100kr vilket leder till fel.
 * Felmedelandet är väldigt simpelt, det specificerar inte vad som är fel eller vilket argument som är felaktigt.
 
-##Prompt 2
+## Prompt 2
 
 Frågan som ställs till AI:
 "Skapa en funktion som returnerar alla primtal från en lista"
@@ -82,18 +82,18 @@ Vad saknas?
 * Ingen säkerhetskontroll för tal som "infinity", det kommer att returneras som **true**.
 * Ifall koden ska användas i ett större sammanhang bör inte funktionen "getPrime" vara en global funktion utan bör inporteras.
 
-#När är AI användbart?
+# När är AI användbart?
 * AI kan vara användbart för att skapa en grund eller mindre enklare funktioner. Skulle man som programmerare ha absolut ingen aning om hur man ska påbörja ett projekt kan AI möjligtvis hjälpa till med en start. AI kan enkelt komma på ider som senare måste tittas igenom och ändras av en människa. 
 * Många AI modeller har en mönsterigenkänning många människor inte har. Detta kan underlätta att förstå och utgöra komplexare mönster som människor har svårare för. 
 * Ifall ditt projekt baseras på något som redan skapats eller redan finns, kan AI hjälpa till att kolla upp brister och utveckling baserat på tidigare data angående ämnet. 
 * AI kan hjälpa till att upptäcka nya ramverk eller nya sätt att utveckla på som kanske inte man själv hade tänkt på.
 
 
-#Sammanfattning
+# Sammanfattning
 ##Bör vi undvika att använda oss utav AI?
 Det enkla svaret är nej. AI kommer inte på många år om ens någonsin att ersätta mänskligt kodande av många anledningar. Människor har oftast erfarenhet, omdöme och ett fritt sinne att lösa problem med. Människor kommer enklare att förstå kundens behov, förstå kodens struktur, göra korrekt tekniska val och mycket mer för att underhålla ett starkt system. Ett mänskligt skrivet system kommer ha bättre säkerhet, lättare att underhåla och även mindre buggar.
 
-##När bör vi använda AI?
+## När bör vi använda AI?
 AI bör användas som ett hjälpmedel till den männskliga utvecklingen. Vid korrekt användning av AI kan det vara ett bra hjälpmedel till människan för att utveckla system, AI bör aldrig själv användas till ett helt system. Istället för att helt skjuta ner iden av AI bör vi utnyttja möjligheten att förbättra de delarna människor inte gör lika bra och tillsammans komplettera varandra till ett perfekt system. Ifall vi ser AI som en miniräknare eller diskmaskin kan systemen som utvecklas kompletteras bra och utvecklandet förbättras.
 
 
