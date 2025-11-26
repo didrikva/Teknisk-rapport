@@ -32,7 +32,7 @@ Vad får vi för svar när vi frågar AI och vad finns det för brister?
 Frågan som ställs till AI:
 "Skapa en funktion i JavaScript för att skriva ut priset från svenska kronor till dollar"
 
-** AI svar **
+**AI svar**
 
 ```
     function sekToUsd(sekAmount, exchangeRate) {
