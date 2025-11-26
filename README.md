@@ -3,7 +3,7 @@ Syftet med rapporten är att jämföra och analysera fördelar samt nackdelar me
 Är AI genrerad kod verkligen bättre? 
 
 # Underhåll
-Mänskligt skriven kod är genrellt sätt lättare att underhålla och felsök. Ifall en person har skrivit koden är det lättare att förstå och underhålla eventuella fel eller fortsätta att utveckla koden. Under utvecklingsprocessen hittar man redan fel som går att återgärda vilket leder till säkrare kod. Jobbar man tillsammans med en grupp kommer enkel och tydlig kod att underlätta för dina kollegor att vidareutveckla och förstå koden som är skriven.
+Mänskligt skriven kod är genrellt sätt lättare att underhålla och felsöka. Ifall en person har skrivit koden är det lättare att förstå och underhålla eventuella fel eller fortsätta att utveckla koden. Under utvecklingsprocessen hittar man redan fel som går att återgärda vilket leder till säkrare kod. Jobbar man tillsammans med en grupp kommer enkel och tydlig kod att underlätta för dina kollegor att vidareutveckla och förstå koden som är skriven.
 
 Vid generering av AI kod skapas det kod för den givna frågan till AI-tjänsten. Ifall koden som frågas efter är en simplare och enkel kod kommer AI till större sannolikhet att skapa en snarlik kod jämfört med en människa. Det är större projekt där vi skapar stora databaser och applikationer som tar en människa veckor eller månader att skapa som AI blir ett större problem. Den genererade koden skapas med en modell vilket ofta leder till att bara förstå varför den genererade koden ens genereras blir svårt. Bara det blir en utmaning att underhålla och felsöka koden. AI genrerar inte från ingenting likt en människa utan hämtar från existerande kodbaser och försöker skapa en så bra kod utifrån uppgiften den hittar.
 
