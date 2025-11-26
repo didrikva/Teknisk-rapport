@@ -34,7 +34,7 @@ Frågan som ställs till AI:
 
 ** AI svar **
 
-'''
+```
     function sekToUsd(sekAmount, exchangeRate) {
         if (typeof sekAmount !== "number" || typeof exchangeRate !== "number") {
             throw new Error("Belopp och växelkurs måste vara nummer.");
@@ -43,7 +43,7 @@ Frågan som ställs till AI:
         const usd = sekAmount * exchangeRate;
         return parseFloat(usd.toFixed(2)); // avrunda till 2 decimaler
     }
-'''
+```
 
 Vad saknas? 
 * Det finns ingen säkerhetskontroll, ifall användaren skickar in infinity som också räknas som ett nummer kommer resultatet bli felaktigt.
