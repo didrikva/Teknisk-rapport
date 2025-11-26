@@ -22,6 +22,7 @@ Många företag hanterar även känslig eller hemlig data som personuppgifter el
 
 # Kundkrav
 Vid utveckling kommer kunden ha krav på applikationen som utvecklas. AI modeller kommer utgå ifrån kraven men väldigt ofta kommer koden inte nå upp till alla krav, men ifall den gör sker oftast buggar eller andra fel som inte gör systemet till ett fungerande system. Skulle AI modellen genererar ett bra system med bra säkerhet och få buggar som kunde blir nöjd med, då återkommer vi till underhållningsproblemet. Vill kunden senare utveckla sitt system har en människa mycket sbårt för just detta. 
+
 Så varför kan man inte fortsätta generera ett större system med AI?
 AI kan absolut fortsätta att skapa större och större system, men hur bra kommer de nya delarna att fungera med de äldre? Ifall något i systemet buggar, kommer AI klara av att fixa problemet? Vidareutvecklingen av systemet kommer att vara bristfälligt med buggar och antagligen inte ens ett fungerande system.
 
@@ -30,16 +31,17 @@ Vad får vi för svar när vi frågar AI och vad finns det för brister?
 
 Frågan som ställs till AI:
 "Skapa en funktion i JavaScript för att skriva ut priset från svenska kronor till dollar"
+
 ** AI svar **
 '''
-function sekToUsd(sekAmount, exchangeRate) {
-    if (typeof sekAmount !== "number" || typeof exchangeRate !== "number") {
-        throw new Error("Belopp och växelkurs måste vara nummer.");
+    function sekToUsd(sekAmount, exchangeRate) {
+        if (typeof sekAmount !== "number" || typeof exchangeRate !== "number") {
+            throw new Error("Belopp och växelkurs måste vara nummer.");
+        }
+    
+        const usd = sekAmount * exchangeRate;
+        return parseFloat(usd.toFixed(2)); // avrunda till 2 decimaler
     }
-
-    const usd = sekAmount * exchangeRate;
-    return parseFloat(usd.toFixed(2)); // avrunda till 2 decimaler
-}
 '''
 
 Vad saknas? 
