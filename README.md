@@ -25,7 +25,7 @@ Många företag hanterar även känslig eller hemlig data som personuppgifter el
 Vid utveckling kommer kunden ha krav på applikationen som utvecklas. AI modeller kommer utgå ifrån kraven men väldigt ofta kommer koden inte nå upp till alla krav. Ifall den når upp till samma krav sker oftast buggar eller andra fel som leder till att systemet inte fungerar som det ska. Skulle AI modellen genererar ett bra system med bra säkerhet och få buggar som kunden blir nöjd med, då återkommer underhållningsproblemet. Vill kunden senare utveckla sitt system har en människa mycket svårt för just detta. Människan kan enkelt kommunicera och förstå kundens behov för att göra ett så bra system som är så nära kundens krav som möjligt. Under utvecklingen kan även en människa återkoppla till kunden för uppdatering av systemet och eventuella frågor, det gör inte AI utan genererar direkt utifrån den information som angetts. 
 
 Så varför kan man inte fortsätta generera ett större system med AI?
-AI kan absolut fortsätta att skapa större och större system, men hur bra kommer de nya delarna att fungera med de äldre? Ifall något i systemet buggar, kommer AI klara av att fixa problemet? Vidareutvecklingen av systemet kommer att vara bristfälligt och innehåla buggar vilket leder till inte fungerande system.
+AI kan absolut fortsätta att skapa större och större system, men hur bra kommer de nya delarna att fungera med de äldre? Ifall något i systemet buggar, kommer AI klara av att fixa problemet? Vidareutvecklingen av systemet kommer att vara bristfälligt och innehålla buggar vilket leder till inte fungerande system.
 
 # Kodexempel
 Vad får vi för svar när vi frågar AI och vad finns det för brister?
